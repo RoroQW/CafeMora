@@ -1,0 +1,167 @@
+@import './partials/main';
+@import './base/listas';
+@import './base/maps.scss';
+
+menu {
+    display: flex;
+ li {
+    list-style: none;
+    margin: 10px;
+    a {
+        color: nth($colores, 2 );
+        text-decoration: none;
+        font-weight: bold;
+        transition: all 0.5s ease; 
+    }
+    a:hover {
+        padding: 5px 10 px;
+        background: nth($colores, 3);
+        color: nth($colores , 2);
+        border-radius: 15px;
+    }
+ }
+}
+
+*{    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body {
+    font-family: Poppins, Montserrat, sans-serif;
+    
+ }
+
+ header {
+    width: 100%;
+    
+    background-size: cover;
+    background-position: center;
+ }
+
+ .nav {
+    width: 100%;
+    background-color: nth($colores , 4);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    transition: all 0.5s ease;
+    a img{
+        display: flex;
+        align-items: center;
+        height: 75px;
+        margin-right: 10px;
+    }
+}
+
+.logo {
+    font-size: 25px;
+    color: black;
+    font-weight: 400;
+
+}
+.menu_responsive_ul {
+    display: none;
+  
+}
+
+@media only screen and (max-width: 500px) {
+    .menu {
+        display: none;
+    }
+    .menu_responsive_ul {
+        display: block;
+        background: nth($colores, 4);
+        height: 100%;
+        width: 100%;
+        margin-top: 37px;
+        padding-top: 27px;
+
+    }  
+
+    }
+
+    
+@media only screen and (max-width: 500px) {
+    .nav a img {
+        display: none;
+        height: 37px;
+        width: 100%;
+    }
+    .nav_responsive_li{
+        width: 100%;
+        list-style: none;
+        padding: 9px 20px;
+    }
+    .nav_responsive_li a {
+        box-sizing: border-box;
+        text-align: center;
+        margin-right: 5px;
+        width: 30px;
+        text-decoration: none;
+    }
+    .nav_li_container {
+        position: relative;
+                
+    }
+    .tituloprincipal {
+        display: flex;
+        font-size: 15px;
+        text-align: center;
+    }    
+    
+    
+}
+
+.tituloprincipal {
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+}
+    
+.parallax {
+
+        background-image: url("../img/fotocafe7.jpg");
+        height: 600px;
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+           
+         margin-bottom:50px;
+}
+
+.flex_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.flex_item {
+    display: flex;
+    background-color: nth ($colores , 8);
+    padding: 10px;
+    margin: 10px;
+    background: rgb(238,174,202);
+background: linear-gradient(90deg, nth ($colores, 6) 0%,nth ($colores, 7) 100%);
+}
+
+
+.title {
+    display: flex;
+    font-size: 30px;
+    justify-content: left;
+    text-align: left;
+}
+
+
+.flex_container2 {
+    display: flex;
+    justify-content: left;
+}
+
+.imagenppal {
+    float: right;
+    max-width: 100%;
+    max-height: 100%;
+}

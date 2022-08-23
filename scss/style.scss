@@ -1,6 +1,9 @@
 @import './partials/main';
+@import './base/maps';
 @import './base/listas';
-@import './base/maps.scss';
+@import './base/extend';
+@import './base/mixin';
+
 
 menu {
     display: flex;

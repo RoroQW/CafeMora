@@ -1,0 +1,25 @@
+@mixin titulos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    @include titulos()
+}
+
+@mixin colores ($colors) {
+    background-color: $colors;
+    width: $ancho;
+    border: $border;
+
+}
+/*Definir color a gusto del cliente*/
+
+.nav{
+    @include colores($colors)
+}
+
+.footer{
+    @include colores($colors)
+}

@@ -1,8 +1,9 @@
-@import './partials/main';
+@import './base/variables';
 @import './base/maps';
 @import './base/listas';
-@import './base/extend';
 @import './base/mixin';
+@import './base/extend';
+@import './partials/main';
 
 
 menu {

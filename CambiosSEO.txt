@@ -1,0 +1,10 @@
+-Se agrearon keywords en el head.
+-Se agrega favicon en el index.html
+-Se incrementó en caracteres la etiqueta "title" en el head.
+-Se agregó "metadescription" con una breve descripción de 80 caracteres.
+-Se agregaron "keywords" con aproximadamente 18 palabras relacionadas con el sitio y el negocio.
+-Se modifica la descripción del atributo "alt" del favicon.
+-Se agrega etiqueta "title" en el parallax.
+-En el h1 del cuerpo principal se agrega la etiqueta "title" con un título acorde para las búsquedas.
+-En el botón de Whatsapp se agregó "title".
+-En el iframe del video de Youtube sobre el "Consejo del Mes" se agregó "title".

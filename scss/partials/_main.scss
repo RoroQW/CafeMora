@@ -1,3 +1,8 @@
 .clase {
     background-color: crimson;
 }
+
+.nav {
+    background-color: map-get($header, bg-header);
+
+}
